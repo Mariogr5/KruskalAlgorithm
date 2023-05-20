@@ -1,0 +1,17 @@
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\bin\Debug\net6.0\Structurydanychprojekt2.exe
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\bin\Debug\net6.0\Structurydanychprojekt2.deps.json
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\bin\Debug\net6.0\Structurydanychprojekt2.runtimeconfig.json
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\bin\Debug\net6.0\Structurydanychprojekt2.dll
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\bin\Debug\net6.0\Structurydanychprojekt2.pdb
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.csproj.AssemblyReference.cache
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.AssemblyInfoInputs.cache
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.AssemblyInfo.cs
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.csproj.CoreCompileInputs.cache
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.dll
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\refint\Structurydanychprojekt2.dll
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.pdb
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.genruntimeconfig.cache
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\ref\Structurydanychprojekt2.dll
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\bin\Debug\net6.0\TspLibNet.dll
+C:\Users\mario\Desktop\Strukturydanych\Strukturydanychprojekt2\Structurydanychprojekt2\obj\Debug\net6.0\Structurydanychprojekt2.csproj.CopyComplete
