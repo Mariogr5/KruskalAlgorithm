@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mfzntiQlj6sGaWxdXOR6VWQDbzgGDOdgtwUG2lkryQEcvIt/LsdDP8DnsIUtI7tlAHITLXJL1MfgSUhrykdSZA==",
+  "dgSpecHash": "LjIcHylErku9zlHoD5UxRAFYuF0AwUW0LJxT2CQXPjCGFCQ82yDJUrb/sjvef9wdT8iVn9Er9l6HaNY8HuEHNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Structurydanychprojekt2\\Structurydanychprojekt2.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\mario\\.nuget\\packages\\tsplib.net\\1.1.6\\tsplib.net.1.1.6.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

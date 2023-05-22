@@ -116,5 +116,16 @@ namespace Structurydanychprojekt2
             return false;
         }
 
+        public T Get(int Numberofposition)
+        {
+            QueueElement<T> TempElement = new QueueElement<T>();
+            TempElement = head;
+            for (int i = 0; i < Numberofposition; i++)
+            {
+                TempElement = TempElement.Next;
+                //tmp++;
+            }
+            return TempElement.Value;
+        }
     }
 }

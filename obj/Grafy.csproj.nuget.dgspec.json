@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Structurydanychprojekt2\\Structurydanychprojekt2.csproj": {}
+    "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Structurydanychprojekt2\\Structurydanychprojekt2.csproj": {
+    "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Structurydanychprojekt2\\Structurydanychprojekt2.csproj",
-        "projectName": "Structurydanychprojekt2",
-        "projectPath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Structurydanychprojekt2\\Structurydanychprojekt2.csproj",
+        "projectUniqueName": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj",
+        "projectName": "Grafy",
+        "projectPath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj",
         "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Structurydanychprojekt2\\obj\\",
+        "outputPath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,12 +43,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "TSPLib.Net": {
-              "target": "Package",
-              "version": "[1.1.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
