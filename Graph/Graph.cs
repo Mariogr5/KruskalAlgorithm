@@ -117,16 +117,30 @@ namespace Structurydanychprojekt2
             }
         }
 
-        public Graph ShowMST()
+        public Graph MSTusingLista()
         {
             var Helper = new KruskalAlgorithm();
             var MyMinTreeList = Helper.FindMinTreeUsingLista(Edges, NumberofVertices);
             var MyMinTreeGraph = new Graph(NumberofVertices, MyMinTreeList);
-            MyMinTreeGraph.MakeAdjacencyMatrix();
-            Console.WriteLine("MST of these graph: ");
-            MyMinTreeGraph.PrintGraph();
+            //MyMinTreeGraph.MakeAdjacencyMatrix();
+            //Console.WriteLine("MST of these graph: ");
+            //MyMinTreeGraph.PrintGraph();
             return MyMinTreeGraph;
         }
-
+        public Graph MSTusingPriotityQueue()
+        {
+            var Helper = new KruskalAlgorithm();
+            var MyMinTreeList = Helper.FindMinTreeUsingPriorityQueue(MakePriorityQueue(), NumberofVertices);
+            var MyMinTreeGraph = new Graph(NumberofVertices, MyMinTreeList);
+            //MyMinTreeGraph.MakeAdjacencyMatrix();
+           // Console.WriteLine("MST of these graph: ");
+           // MyMinTreeGraph.PrintGraph();
+            return MyMinTreeGraph;
+        }
+        public void ShowMST(Graph graph)
+        {
+            Console.WriteLine("MST of these graph: ");
+            graph.PrintGraph();
+        }
     }
 }

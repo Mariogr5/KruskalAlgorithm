@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj": {}
+    "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\StrukturydanychProjekt2\\KruskalAlgorithm\\Grafy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj": {
+    "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\StrukturydanychProjekt2\\KruskalAlgorithm\\Grafy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj",
+        "projectUniqueName": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\StrukturydanychProjekt2\\KruskalAlgorithm\\Grafy.csproj",
         "projectName": "Grafy",
-        "projectPath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj",
+        "projectPath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\StrukturydanychProjekt2\\KruskalAlgorithm\\Grafy.csproj",
         "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\obj\\",
+        "outputPath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\StrukturydanychProjekt2\\KruskalAlgorithm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

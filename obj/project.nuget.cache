@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LjIcHylErku9zlHoD5UxRAFYuF0AwUW0LJxT2CQXPjCGFCQ82yDJUrb/sjvef9wdT8iVn9Er9l6HaNY8HuEHNQ==",
+  "dgSpecHash": "pE/RaDGIkkeaR3d2e35WSKeYmLHKItLxPWt2nGjkTeSvYhd3MXC7IrNG4pHnPecTdyvjCtVfV+b298YH1l9YJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\Grafy\\Grafy\\Grafy.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\mario\\Desktop\\Strukturydanych\\Strukturydanychprojekt2\\StrukturydanychProjekt2\\KruskalAlgorithm\\Grafy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\mario\\.nuget\\packages\\newtonsoft.json.schema\\3.0.15\\newtonsoft.json.schema.3.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
