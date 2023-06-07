@@ -12,34 +12,81 @@ namespace Grafy.Tests
     {
         public static double TestListGraph(int size, double density)
         {
-            Stopwatch stopper = new Stopwatch();
-
-            var graph = MakeGraph(size, density);
-            stopper.Start();
-            var MST = graph.MSTusingLista();
-            stopper.Stop();
-            //graph.ShowMST(MST);
-            return stopper.Elapsed.TotalSeconds;
+            double Aritmeticaverage = 0;
+            for (int i = 0; i < 1; i++)
+            {
+                Stopwatch stopper = new Stopwatch();
+                var graph = MakeGraph(size, density);
+                stopper.Start();
+                var MST = graph.MSTusingLista();
+                stopper.Stop();
+                double c = stopper.Elapsed.TotalSeconds;
+                stopper.Reset();
+                Aritmeticaverage += c;
+            }
+            Aritmeticaverage /= 5;
+            return Aritmeticaverage;
         }
 
         public static double TestQueueGraph(int size, double density)
         {
-            var graph = MakeGraph(size, density);
-            Stopwatch stopper = new Stopwatch();
-            //var graph = MakeGraph(size);
-            stopper.Start();
-            var MST = graph.MSTusingPriotityQueue();
-            stopper.Stop();
-            //graph.ShowMST(MST);
-            return stopper.Elapsed.TotalSeconds;
+            double Aritmeticaverage = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                var graph = MakeGraph(size, density);
+                Stopwatch stopper = new Stopwatch();
+                //var graph = MakeGraph(size);
+                stopper.Start();
+                var MST = graph.MSTusingPriotityQueue();
+                stopper.Stop();
+                double c = stopper.Elapsed.TotalSeconds;
+                stopper.Reset();
+                Aritmeticaverage += c;
+            }
+            Aritmeticaverage /= 5;
+            return Aritmeticaverage;
         }
 
+
+        public static double TestAdjacencyMatrix(int size, double density)
+        {
+            double AritmetivAverage = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                var graph = MakeGraph(size, density);
+                Stopwatch stopper = new Stopwatch();
+                stopper.Start();
+                graph.MakeAdjacencyMatrix();
+                stopper.Stop();
+                var c = stopper.Elapsed.TotalSeconds;
+                stopper.Reset();
+                AritmetivAverage += c;
+            }
+            AritmetivAverage /= 5;
+            return AritmetivAverage;
+        }
+        public static double TestNeighbourList(int size, double density)
+        {
+            double AritmetivAverage = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                var graph = MakeGraph(size, density);
+                Stopwatch stopper = new Stopwatch();
+                stopper.Start();
+                graph.MakeNeighbourList();
+                stopper.Stop();
+                var c = stopper.Elapsed.TotalSeconds;
+                stopper.Reset();
+                AritmetivAverage += c;
+            }
+            AritmetivAverage /= 5;
+            return AritmetivAverage;
+        }
 
 
         public static Graph MakeGraph(int numberofvertexs, double density)
         {
             int numberofedges = (int)(0.5 * (density * (numberofvertexs * (numberofvertexs - 1))));
-            //density = 2 * numberofedges / (numberofvertexs * (numberofvertexs - 1));
             Random random = new Random();
             Lista<Edge> Mylist = new Lista<Edge>();
             int z = 0;
@@ -56,18 +103,5 @@ namespace Grafy.Tests
             Graph Mygraph = new Graph(numberofvertexs, Mylist);
             return Mygraph;
         }
-
-       // public static Graph MakeQueueGraph(int size)
-       // {
-       //     Random random = new Random();
-       //     PriorityQueue<Edge> Mylist = new PriorityQueue<Edge>();
-       //
-       //     for (int i = 0; i < size; i++)
-       //     {
-       //         Mylist.(new Edge(i, size - i, random.Next()));
-       //     }
-       //     Graph Mygraph = new Graph(size, Mylist);
-       //     return Mygraph;
-       // }
     }
 }
